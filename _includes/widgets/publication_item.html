@@ -1,5 +1,5 @@
 {% assign item = include.item %}
-<div class="row my-2" style="overflow:hidden;margin:auto;">
+<div class="row my-2" style="overflow:hidden;margin:auto;padding-top:10px;padding-bottom:10px;">
   <!-- 图片及蓝色角标 -->
   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 abbr d-flex flex-column align-items-center justify-content-center" style="position:relative;overflow:hidden;">
     <div style="position:absolute;top:10px;left:6px;z-index:2;">
@@ -16,6 +16,7 @@
   <div class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column justify-content-between">
     <div>
       <div class="title" style="font-size:1.18rem;font-weight:500;">{{ item.title }}</div>
+      <div class="periodical mb-1"><em>{{ item.label }}</em></div>
       <div class="author mb-1"><em>{% include widgets/author_list.html authors=item.authors %}</em></div>
       <div class="periodical mb-1"><em>{{ item.pub_pre }}<b>{{ item.pub }}</b>{{ item.pub_post }}, {{ item.pub_date }}{{ item.pub_last }}</em></div>
     </div>
