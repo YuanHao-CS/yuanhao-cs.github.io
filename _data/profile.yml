@@ -21,7 +21,7 @@ orcid: 0000-0002-7738-6808
 ResearchGate: Yuan-Hao-Jiang
 
 short_bio: >-
-  <p style="text-align: justify;">Hello! I am a PhD candidate at the Shanghai Institute of Artificial Intelligence for Education, East China Normal University, majoring in AI for Education. Here, I lead the Outstanding Doctoral Research Program for Advancing Academic Innovation and am expected to graduate in July 2027. At the same time, I am also a joint doctoral student at Shanghai Jiao Tong University. My research interests include AI for education, agentic workflow, human-computer interaction, and multimodal large language models. </br></br>Currently, I am a member of the Association for Computing Machinery (ACM), the Association for the Advancement of Computing in Education (AACE), and the ACM Special Interest Group on Computer-Human Interaction (SIGCHI). I also serve as a reviewer for ESWA, EAAI, ICLR, AIED, and other Top SCI journals or leading international conferences.</p>
+  <p style="text-align: justify;">Hello! I am a PhD candidate at the Shanghai Institute of Artificial Intelligence for Education, East China Normal University, majoring in AI for Education. Here, I lead a Fundamental Research Funds for the Central Universities and am expected to graduate in July 2027. At the same time, I am also a joint doctoral student at Shanghai Jiao Tong University. My research interests include AI for education, agentic workflow, human-computer interaction, and multimodal large language models. </br></br>Currently, I am a member of the Association for Computing Machinery (ACM), the Association for the Advancement of Computing in Education (AACE), and the ACM Special Interest Group on Computer-Human Interaction (SIGCHI). I also serve as a reviewer for ESWA, EAAI, ICLR, AIED, and other Top SCI journals or leading international conferences.</p>
 
 show_portrait: true
 portrait_url: assets/images/photos/portrait.jpg
@@ -56,7 +56,7 @@ service:
 - name: Workshop Program Committee member of <a href="https://gccce2024.swu.edu.cn/index_en.htm">Global Chinese Conference on Computers in Education (GCCCE 2024)</a>
 
 awards:
-- name: 🏅Outstanding Doctoral Research Program for Advancing Academic Innovation
+- name: 🏅ECNU Academic Innovation Promotion Program for Excellent Doctoral Students
   date: 2025
 - name: 🥈National Silver Award, China International College Students' Innovation Competition
   date: 2025
