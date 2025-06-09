@@ -45,11 +45,11 @@
     <div class="d-flex flex-row flex-wrap align-items-center gap-1 mt-2 links">
       <button class="award btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" type="button"
         onclick="toggleAbs('{{ item.id }}');">ABSTRACT</button>
-      <a href="{{ item.pdf_link }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" target="_blank">PDF</a>
+      <a href="{{ item.PDF }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" target="_blank">PDF</a>
       <button class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" type="button"
         onclick="toggleBib('{{ item.id }}');">BIB</button>
-      <a href="{{ item.html_link }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" target="_blank">HTML</a>
-      <a href="{{ item.code_link }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1">CODE/DATASET</a>
+      <a href="{{ item.HTML }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" target="_blank">HTML</a>
+      <a href="{{ item.CODE_OR_DATASET }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1">CODE/DATASET</a>
     </div>
 
 
@@ -58,7 +58,7 @@
     <!-- BIB 展开区（半宽 col-6），含复制按钮 -->
     <div id="bib{{ item.id }}" class="row mt-2 d-none">
       <div class="col-6" style="position:relative;">
-        <pre class="mb-0" style="background:#f9f9fb;border-radius:4px;padding:10px 16px;font-size:14px;overflow:auto;" id="bib-content-{{ item.id }}">{{ item.bibtex }}</pre>
+        <pre class="mb-0" style="background:#f9f9fb;border-radius:4px;padding:10px 16px;font-size:14px;overflow:auto;" id="bib-content-{{ item.id }}">{{ item.BIB }}</pre>
         <button type="button" class="btn btn-link p-0 position-absolute" style="top:7px;right:18px;" 
             title="复制" aria-label="Copy"
             onclick="copyBibToClipboard('{{ item.id }}')">
