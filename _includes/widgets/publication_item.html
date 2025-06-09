@@ -1,25 +1,89 @@
 {% assign item = include.item %}
-<div class="d-none d-md-block">
-    <div class="row no-gutters border-bottom border-gray">
-        <div class="col-sm-12 col-md-6 col-xl-6 mb-md-0 p-md-3">
-            <img data-src="{{ item.cover }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="assets/images/empty_300x200.png">
-        </div>
-        <div class="col-sm-12 col-md-6 col-xl-6 p-3 pl-md-0">
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
-            <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
-            <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
-            
-            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                {% for link in item.links %}
-                {% if link[1].url %}
-                <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
-                {% else %}
-                <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
-                {% endif %}
-                {% endfor %}
-            </p>
-
-        </div>
+<div class="row my-2" style="box-shadow:0 4px 16px rgba(0,0,0,0.08); border-radius:8px;">
+  <!-- 图片及蓝色角标 -->
+  <div class="col col-sm-3 abbr d-flex flex-column align-items-center justify-content-center" style="position:relative;overflow:hidden;width:450px;max-width:100%;padding:0;">
+    <div style="position:absolute;top:6px;left:6px;z-index:2;">
+      <abbr class="badge" style="background-color:#00369f;color:#fff;font-size:14px;padding:4px 12px;border-radius:4px;box-shadow:0 1px 6px rgba(0,0,0,.12);">IJCV</abbr>
     </div>
+    <a href="{{ item.img_link }}" target="_blank" style="display:block;width:450px;height:120px;overflow:hidden;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,0.08);">
+      <img src="{{ item.cover }}" alt="{{ item.title }}" style="width:450px;height:120px;object-fit:cover;transition:transform .3s cubic-bezier(.4,0,.2,1);border-radius:6px;" class="hover-zoom-img">
+    </a>
+    <style>
+      .hover-zoom-img:hover { transform:scale(1.08);}
+    </style>
+  </div>
+  <!-- 右侧信息 -->
+  <div class="col-sm-9 d-flex flex-column justify-content-between">
+    <div>
+      <div class="title" style="font-size:1.18rem;font-weight:500;">{{ item.title }}</div>
+      <div class="author mb-1"><em>{% include widgets/author_list.html authors=item.authors %}</em></div>
+      <div class="periodical mb-1"><em>{{ item.pub_pre }}<b>{{ item.pub }}</b>{{ item.pub_post }}, {{ item.pub_date }}{{ item.pub_last }}</em></div>
+    </div>
+    <div class="d-flex flex-row flex-wrap align-items-center gap-1 mt-2 links">
+      <button class="award btn btn-sm z-depth-0 px-3 py-1 mx-1" type="button" style="background:#f5f5fa;"
+        onclick="toggleAbs('{{ item.id }}');">ABSTRACT</button>
+      <a href="{{ item.pdf_link }}" class="btn btn-sm z-depth-0 px-3 py-1 mx-1" target="_blank" style="background:#f5f5fa;">PDF</a>
+      <button class="bibtex btn btn-sm z-depth-0 px-3 py-1 mx-1" type="button"
+        onclick="toggleBib('{{ item.id }}');">BIB</button>
+      <a href="{{ item.html_link }}" class="btn btn-sm z-depth-0 px-3 py-1 mx-1" target="_blank" style="background:#f5f5fa;">HTML</a>
+      <a href="{{ item.code_link }}" class="btn btn-sm z-depth-0 px-3 py-1 mx-1" target="_blank" style="background:#f5f5fa;">CODE</a>
+    </div>
+    <!-- ABSTRACT 展开区（全宽 col-12） -->
+    <div id="abs{{ item.id }}" class="row mt-2 d-none">
+      <div class="col-12" style="padding-left:0;">
+        <div style="background:#f9f9fb;font-size:15px;padding:10px 16px;border-radius:4px;">
+          {{ item.abstract }}
+        </div>
+      </div>
+    </div>
+    <!-- BIB 展开区（半宽 col-6），含复制按钮 -->
+    <div id="bib{{ item.id }}" class="row mt-2 d-none">
+      <div class="col-6" style="position:relative;">
+        <pre class="mb-0" style="background:#f9f9fb;border-radius:4px;padding:10px 16px;font-size:14px;overflow:auto;" id="bib-content-{{ item.id }}">{{ item.bibtex }}</pre>
+        <button type="button" class="btn btn-link p-0 position-absolute" style="top:7px;right:18px;" 
+            title="复制" aria-label="Copy"
+            onclick="copyBibToClipboard('{{ item.id }}')">
+          <i class="fa fa-clipboard"></i>
+        </button>
+        <!-- 复制成功提示 -->
+        <span id="bib-copied-{{ item.id }}" class="text-success" style="display:none;position:absolute;top:7px;right:58px;">已复制!</span>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+<script>
+// ABSTRACT 和 BIB 互斥展开
+function toggleAbs(id) {
+  var absBox = document.getElementById('abs'+id);
+  var bibBox = document.getElementById('bib'+id);
+  if (absBox.classList.contains('d-none')) {
+    absBox.classList.remove('d-none');
+    bibBox.classList.add('d-none');
+  } else {
+    absBox.classList.add('d-none');
+  }
+}
+function toggleBib(id) {
+  var bibBox = document.getElementById('bib'+id);
+  var absBox = document.getElementById('abs'+id);
+  if (bibBox.classList.contains('d-none')) {
+    bibBox.classList.remove('d-none');
+    absBox.classList.add('d-none');
+  } else {
+    bibBox.classList.add('d-none');
+  }
+}
+
+// 复制功能
+function copyBibToClipboard(id) {
+  var pre = document.getElementById('bib-content-' + id);
+  var text = pre.innerText;
+  navigator.clipboard.writeText(text).then(function() {
+    var tip = document.getElementById('bib-copied-' + id);
+    tip.style.display = 'inline';
+    setTimeout(function() { tip.style.display = 'none'; }, 1400);
+  });
+}
+</script>
