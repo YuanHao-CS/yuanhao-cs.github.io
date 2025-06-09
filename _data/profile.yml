@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Yuan-Hao Jiang's Home Page"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/ECNU.png" alt="East China Normal University" class="inline-badge"/></span> <span class="no-break"><img src="assets/images/badges/SJTU.png" alt="Shanghai Jiao Tong University" class="inline-badge"/></span> PhD student at East China Normal University (ECNU) & Joint doctoral student at Shanghai Jiao Tong University (SJTU)'
+  - '<span class="no-break"><img src="assets/images/badges/ECNU.jpg" alt="East China Normal University" class="inline-badge"/></span> <span class="no-break"><img src="assets/images/badges/SJTU.jpg" alt="Shanghai Jiao Tong University" class="inline-badge"/></span> PhD student at East China Normal University (ECNU) & Joint doctoral student at Shanghai Jiao Tong University (SJTU)'
 
 email: "yuanhao.cs.edu@gmail.com"
 gscholar: jo3KvrwAAAAJ
@@ -23,19 +23,19 @@ short_bio: >-
   I’m Rongsheng Wang, a former student at Macao Polytechnic University (MPU). My primary research interests lie in Large Language Models (LLMs) and Multimodal LLMs (MLLMs). I am recognized as a <a href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">Baidu PPDE</a> and a <a href="https://www.kaggle.com/rongshengwang">Kaggle Competition Master</a>. I have been featured in <a href="https://china-ranking.32k.site/ ">China-Ranking</a> and recognized as an outstanding individual developer on GitHub in China.</br></br> I actively contribute to the open-source community on <a href="https://github.com/WangRongsheng">🔗GitHub</a> <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/wangrongsheng?style=flat-square">, where I’ve led or contributed to several notable projects, including <a href="https://github.com/kaixindelele/ChatPaper/stargazers" target="_blank">ChatPaper <img src="https://img.shields.io/github/stars/kaixindelele/ChatPaper?color=orange" alt="GitHub Stars"></a>, <a href="https://github.com/WangRongsheng/XrayGLM/stargazers" target="_blank">XrayGLM <img src="https://img.shields.io/github/stars/WangRongsheng/XrayGLM?color=orange" alt="GitHub Stars"></a>, <a href="https://github.com/WangRongsheng/awesome-LLM-resourses/stargazers" target="_blank">Awesome-LLM-Resources <img src="https://img.shields.io/github/stars/WangRongsheng/awesome-LLM-resourses?color=orange" alt="GitHub Stars"></a>, and <a href="https://github.com/FreedomIntelligence/TinyDeepSeek/stargazers" target="_blank">TinyDeepSeek <img src="https://img.shields.io/github/stars/FreedomIntelligence/TinyDeepSeek?color=orange" alt="GitHub Stars"></a>. I also share datasets and model weights from these projects on <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>, and I enjoy publishing lightweight language models on <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to support local deployment and usage.
 
 show_portrait: true
-portrait_url: assets/images/photos/55651568.jpeg
+portrait_url: assets/images/photos/portrait.jpg
 portrait_caption: >-
-  我是王荣胜，欢迎访问我的主页~
+  Nice to see you!
 
 education:
-- name: Macao Polytechnic University
-  logo: assets/images/badges/mpu_master.png
-  position: M.S. in Big Data and Internet of Things
-  date: Sep. 2022 - Jul. 2024
-- name: Henan Polytechnic University
-  logo: assets/images/badges/hpu_bs.png
-  position: B.S. in Computer Science (AI)
-  date: Sep. 2018 - Jul. 2022
+- name: Shanghai Jiao Tong University
+  logo: assets/images/badges/SJTU.jpg
+  position: Joint doctoral student
+  date: 2024 - 2025
+- name: East China Normal University
+  logo: assets/images/badges/ECNU.jpg
+  position: PhD student in <b>AI for Education</b>
+  date: 2023-2027
   
 experience:
 - name: CUHK (SZ)
