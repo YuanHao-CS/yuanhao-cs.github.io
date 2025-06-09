@@ -3,6 +3,7 @@ id:             "2025-2_jiang_explainable"
 title:          "Explainable Learning Outcomes Prediction: Information Fusion Based on Grades Time-Series and Student Behaviors"
 date:           2025-04-25 00:01:00 +0800
 selected:       true
+abbr:           'CHI 2025'
 label:          ' <span class="badge badge-pill badge-custom badge-primary">CCF</span> '
 pub_pre:        ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span> '
 pub:            "ACM CHI Conference on Human Factors in Computing Systems (CHI 2025)"
