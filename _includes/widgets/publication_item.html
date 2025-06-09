@@ -3,10 +3,10 @@
   <!-- 图片及蓝色角标 -->
   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 abbr d-flex flex-column align-items-center justify-content-center" style="position:relative;overflow:hidden;">
     <div style="position:absolute;top:10px;left:6px;z-index:2;">
-      <abbr class="badge" style="background-color:#00369f;color:#fff;font-size:1rem;padding:4px 12px;border-radius:4px;box-shadow:0 1px 6px rgba(0,0,0,.12);min-width:150px">TVC 2025</abbr>
+      <abbr class="badge" style="background-color:#00369f;color:#fff;font-size:1rem;padding:4px 12px;border-radius:4px;box-shadow:0 1px 6px rgba(0,0,0,.12);min-width:150px">{{ item.abbr }}</abbr>
     </div>
-    <a href="{{ item.HTML }}" target="_blank" style="display:block;overflow:hidden;border-radius:6px;box-shadow:0 0px 10px rgba(0,0,0,0.15);">
-      <img src="{{ item.cover }}" alt="{{ item.title }}" style="max-width:100%;height:230px;object-fit:cover;transition:transform .3s cubic-bezier(.4,0,.2,1);border-radius:6px;" class="hover-zoom-img">
+    <a href="{{ item.HTML }}" target="_blank" style="width: 100%;display:block;overflow:hidden;border-radius:6px;box-shadow:0 0px 10px rgba(0,0,0,0.15);">
+      <img src="{{ item.cover }}" alt="{{ item.title }}" style="width: 100%;max-width:100%;height:230px;object-fit:cover;transition:transform .3s cubic-bezier(.4,0,.2,1);border-radius:6px;" class="hover-zoom-img">
     </a>
     <style>
       .hover-zoom-img:hover { transform:scale(1.08);}
