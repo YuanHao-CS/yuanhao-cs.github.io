@@ -3,6 +3,7 @@ id:             "2025-1_jiang_mas-kcl"
 title:          "MAS-KCL: Knowledge Component Graph Structure Learning with Large Language Model-Based Agentic Workflow"
 date:           2025-05-01 00:01:00 +0800
 selected:       true
+abbr:           'TVC 2025'
 label:          ' <span class="badge badge-pill badge-custom badge-primary">SCI Q2</span> <span class="badge badge-pill badge-custom badge-primary">CCF-C</span> <span class="badge badge-pill badge-custom badge-primary">EI-Indexed Journal</span> '
 pub_pre:        ' <span class="badge badge-pill badge-custom badge-secondary">Journal</span> '
 pub:            "The Visual Computer"
