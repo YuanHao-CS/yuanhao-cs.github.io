@@ -30,8 +30,10 @@
       }
     
       /* 禁用 :active 状态的效果 */
-      .btn-light.text-dark {
-        pointer-events: none;
+      .btn-light.text-dark:active {
+        background-color: #f5f5fa !important;  /* 保持原始背景色 */
+        color: #000 !important; /* 保持原始文字颜色 */
+        border-color: #f5f5fa !important;  /* 保持原始边框 */
       }
     </style>
 
