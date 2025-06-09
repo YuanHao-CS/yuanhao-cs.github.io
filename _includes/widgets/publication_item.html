@@ -28,6 +28,12 @@
     <img data-src="{{ item.cover }}" alt="{{ item.title }}" class="lazy card-img w-100" src="assets/images/empty_300x200.png">
     <div class="card-img-overlay d-flex align-items-start flex-column" style="background-color: rgba(255, 255, 255, 0.85);">
         <div class="mb-auto"></div>
+        
+        <!-- 左上角文本框 -->
+        <div class="position-absolute top-0 left-0 p-2" style="background-color: rgba(0, 0, 0, 0.6); color: white; font-size: 14px; border-radius: 5px;">
+            <p class="mb-0">{{ item.title }}</p>
+        </div>
+        
         <div>
             <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
@@ -42,7 +48,24 @@
                 <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
                 {% endif %}
                 {% endfor %}
+
+                <!-- BIB按钮，点击展开内容 -->
+                {% if item.bib %}
+                <button class="btn btn-link p-0" type="button" data-toggle="collapse" data-target="#bib{{ item.id }}" aria-expanded="false" aria-controls="bib{{ item.id }}">BIB</button>
+                <div class="collapse" id="bib{{ item.id }}">
+                    <div class="card card-body">
+                        <!-- 这里可以添加展开显示的BIB内容 -->
+                        <pre>{{ item.bib }}</pre>
+                    </div>
+                </div>
+                {% endif %}
+
+
+                
             </p>
+
+
+            
         </div>
     </div>
 </div>
