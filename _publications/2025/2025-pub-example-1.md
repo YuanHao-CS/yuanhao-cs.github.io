@@ -1,28 +1,22 @@
 ---
-title:          Unlocking Medical Video Generation by Scaling Granularly-annotated Medical Videos
-date:           2025-04-20 00:01:00 +0800
+title:          MAS-KCL: Knowledge Component Graph Structure Learning with Large Language Model-Based Agentic Workflow
+date:           2025-05-01 00:01:00 +0800
 selected:       true
-pub:            "arXiv"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
+pub:            "The Visual Computer"
+pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Journal</span>'
 pub_date:       "2025"
 
 abstract: >-
-  We introduce MedVideoCap-55K, the first large-scale, diverse, and caption-rich dataset designed for medical video generation. Comprising over 55,000 curated clips from real-world clinical scenarios, it addresses the critical need for both visual fidelity and medical accuracy in applications such as training, education, and simulation.
-  
-cover:          assets/images/covers/medvideocap.png
+  Knowledge components (KCs) are the fundamental units of knowledge in education. A KC graph illustrates the relationships and dependencies between KCs. An accurate KC graph helps educators identify the root causes of learners’ poor performance on specific KCs, enabling targeted instructional interventions. We developed MAS-KCL, a KC graph structure learning algorithm that uses a multi-agent system driven by large language models for adaptive optimization of the KC graph. A bidirectional feedback mechanism is integrated to assess the value of edges and optimize graph structure learning efficiency. We validated this approach on both synthetic and real-world educational datasets, showing its effectiveness in learning path recognition, allowing teachers to design more targeted and effective learning plans.
+
+cover:          assets/images/covers/2025-mas-kcl.png
 authors:
-  - Rongsheng Wang
-  - Junying Chen
-  - Ke Ji
-  - Zhenyang Cai
-  - Shunian Chen
-  - Yunjin Yang
-  - Benyou Wang†
+  - Yuan-Hao Jiang
+  - Kezong Tang
+  - Zi-Wei Chen
+  - Yuang Wei
+  - Tian-Yi Liu
+  - Jiayi Wu
 links:
-  Project: https://freedomintelligence.github.io/MedGen
-  Paper: https://arxiv.org/
-  Code: https://github.com/FreedomIntelligence/MedGen
-  Dataset: https://huggingface.co/datasets/FreedomIntelligence/MedVideoCap-55K
+  Paper: https://doi.org/10.1007/s00371-025-03946-1
 ---
