@@ -30,10 +30,12 @@
       }
     
       /* 禁用 :active 状态的效果 */
-      .btn-light.text-dark:active {
-        background-color: #f5f5fa !important;  /* 保持原始背景色 */
-        color: #000 !important; /* 保持原始文字颜色 */
-        border-color: #f5f5fa !important;  /* 保持原始边框 */
+      * :active,
+      *:active {
+        background-color: inherit !important;
+        color: inherit !important;
+        box-shadow: none !important;
+        outline: none !important;
       }
     </style>
 
