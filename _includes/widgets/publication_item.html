@@ -50,7 +50,6 @@
                 {% endfor %}
 
                 <!-- BIB按钮，点击展开内容 -->
-                {% if item.bib %}
                 <button class="btn btn-link p-0" type="button" data-toggle="collapse" data-target="#bib{{ item.id }}" aria-expanded="false" aria-controls="bib{{ item.id }}">BIB</button>
                 <div class="collapse" id="bib{{ item.id }}">
                     <div class="card card-body">
@@ -58,7 +57,6 @@
                         <pre>{{ item.bib }}</pre>
                     </div>
                 </div>
-                {% endif %}
 
 
                 
