@@ -20,7 +20,7 @@ orcid: 0000-0002-7738-6808
 # xiaohongshu: 5fa266300xxxx
 
 short_bio: >-
-  <p style="text-align: justify;">Hello! I am a PhD candidate at the Shanghai Institute of Artificial Intelligence for Education, East China Normal University, majoring in AI for Education. Here, I lead the Outstanding Doctoral Research Program for Advancing Academic Innovation and am expected to graduate in July 2027. At the same time, I am also a joint doctoral student at Shanghai Jiao Tong University. My research interests include AI for education, agentic workflow, human-computer interaction, and multimodal large language models. </br></br>Currently, I have served or will serve as a program committee member for tracks or workshops at the Global Chinese Conference on Computers in Education (GCCCE 2024), International Conference on Artificial Intelligence in Education (AIED 2024), AIED 2025, and International Conference on Computers in Education (ICCE 2025). I am a member of the Association for Computing Machinery (ACM), the Association for the Advancement of Computing in Education (AACE), and the Special Interest Group on Computer-Human Interaction (SIGCHI). I also serve as a reviewer for ESWA, EAAI, ICLR, AIED, and other Top SCI journals or leading international conferences.</p>
+  <p style="text-align: justify;">Hello! I am a PhD candidate at the Shanghai Institute of Artificial Intelligence for Education, East China Normal University, majoring in AI for Education. Here, I lead the Outstanding Doctoral Research Program for Advancing Academic Innovation and am expected to graduate in July 2027. At the same time, I am also a joint doctoral student at Shanghai Jiao Tong University. My research interests include AI for education, agentic workflow, human-computer interaction, and multimodal large language models. </br></br>Currently, I am a member of the Association for Computing Machinery (ACM), the Association for the Advancement of Computing in Education (AACE), and the ACM Special Interest Group on Computer-Human Interaction (SIGCHI). I also serve as a reviewer for ESWA, EAAI, ICLR, AIED, and other Top SCI journals or leading international conferences.</p>
 
 show_portrait: true
 portrait_url: assets/images/photos/portrait.jpg
@@ -43,32 +43,47 @@ education:
 #  position: Research Assistant (Supervisor is <a href="https://wabyking.github.io/old.html">Benyou Wang</a>)
 #  date: Sep. 2024 - Now
 
+service:
+- name: Track Program Committee member of <a href="https://aied2025.itd.cnr.it/">International Conference on Artificial Intelligence in Education (AIED 2025)</a>
+- name: Workshop Program Committee member of <a href="https://icce2025.study.iitm.ac.in/">International Conference on Computers in Education (ICCE 2025)</a>
+- name: Track Program Committee member of <a href="https://aied2024.cesar.school/">International Conference on Artificial Intelligence in Education (AIED 2024)</a>
+- name: Workshop Program Committee member of <a href="https://gccce2024.swu.edu.cn/index_en.htm">Global Chinese Conference on Computers in Education (GCCCE 2024)</a>
 
 awards:
-- name: 🎫Kaggle Competitions Expert
+- name: 🏅Outstanding Doctoral Research Program for Advancing Academic Innovation
   date: 2025
-- name: 🥇Gold Medal of Kaggle AI Mathematical Olympiad - Progress Prize 2
+- name: 🥈National Silver Award, China International College Students' Innovation Competition
   date: 2025
-- name: 🎫Outstanding Award of JingDong Health - Global AI Innovation Competition
+- name: 🥉National Bronze Award, "Chuang Qingchun" China Youth Innovation and Entrepreneurship Competition (Technological Innovation)
   date: 2024
-- name: 🥇First Prize of Baidu PaddlePaddle AGI Hackathon
-  date: 2024
-- name: 🥉Third Prize of DiMTAIC (Organized by JingDong Health)
+- name: 🥈National Silver Award, THE CHINA GRADUATE ELECTRONICS DESIGN CONTEST
   date: 2023
-- name: 🥉Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
+- name: 🎫Excellence Award, "Chuang Qingchun" China Youth Innovation and Entrepreneurship Competition (Technological Innovation)
   date: 2023
-- name: 🥈Silver Medal of Kaggle RSNA Screening Mammography Cancer Detection
+- name: 🥉National Bronze Award, "Chuang Qingchun" China Youth Innovation and Entrepreneurship Competition (Digital Economy)
   date: 2023
-- name: 🎫Outstanding Award of IEEE UV 2022 Object Detection Challenge
+- name: 🎓Outstanding Graduate
+  date: 2023
+- name: 🏅"Huawei Cup" China Graduate AI Innovation Competition
+  date: 2023
+- name: 🏆National Scholarship
   date: 2022
-- name: 🎫<a href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">Baidu PaddlePaddle Developers Experts</a>
+- name: 🎫Outstanding Graduate Student Model
+  date: 2022
+- name: 🥈National Silver Award, THE CHINA GRADUATE ELECTRONICS DESIGN CONTEST
+  date: 2022
+- name: 🥇First Prize, National Marine Vehicle Design and Production Competition
+  date: 2022
+- name: 🥉Third Prize, "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Competition
+  date: 2022
+- name: 🎫Outstanding Graduate Student Model
   date: 2021
-
-service:
-- name: Track Program Committee member of <a href="https://aied2025.itd.cnr.it/">AIED 2025</a>
-- name: Workshop Program Committee member of <a href="https://icce2025.study.iitm.ac.in/">ICCE 2025</a>
-- name: Track Program Committee member of <a href="https://aied2024.cesar.school/">AIED 2024</a>
-- name: WorkshopProgram Committee member of <a href="https://gccce2024.swu.edu.cn/index_en.htm">GCCCE 2024</a>
+- name: 🥇First Prize, Asia and Pacific Mathematical Contest in Modeling (Certificate of Achievement)
+  date: 2020
+- name: 🏆National Scholarship
+  date: 2019
+- name: 🎫National Endeavor Scholarship
+  date: 2018
 
 footer_text: >-
   Copyright © 2025 <a href="https://scholar.google.com/citations?user=jo3KvrwAAAAJ" target="_blank">Yuan-Hao Jiang</a>. All Rights Reserved.
