@@ -3,6 +3,7 @@ id:             "2025-3_shi_mitigating"
 title:          "Mitigating Reasoning Hallucination Through Multi-Agent Collaborative Filtering"
 date:           2025-03-05 00:01:00 +0800
 selected:       true
+abbr:           'ESWA 2025'
 label:          ' <span class="badge badge-pill badge-custom badge-primary">TOP</span> <span class="badge badge-pill badge-custom badge-primary">SCI Q1</span> <span class="badge badge-pill badge-custom badge-primary">IF = 7.5</span> <span class="badge badge-pill badge-custom badge-primary">CCF-C</span> <span class="badge badge-pill badge-custom badge-primary">EI-Indexed Journal</span> '
 pub_pre:        ' <span class="badge badge-pill badge-custom badge-secondary">Journal</span> '
 pub:            "Expert Systems with Applications"
