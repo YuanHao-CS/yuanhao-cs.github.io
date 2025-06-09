@@ -36,6 +36,11 @@ education:
   logo: assets/images/badges/ECNU.jpg
   position: PhD student in <b>AI for Education</b>
   date: 2023 - 2027
+- name: Jiangsu University of Science and Technology
+  logo: assets/images/badges/JUST.jpg
+  position: Master of Engineering in <b>Pattern Recognition and Intelligent Systems</b>
+  date: 2020 - 2023
+
   
 #experience:
 #- name: CUHK (SZ)
