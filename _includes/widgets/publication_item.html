@@ -20,6 +20,7 @@
       <div class="author mb-1"><em>{% include widgets/author_list.html authors=item.authors %}</em></div>
       <div class="periodical mb-1"><em>{{ item.pub_pre }}<b>{{ item.pub }}</b>{{ item.pub_post }}, {{ item.pub_date }}{{ item.pub_last }}</em></div>
     </div>
+    
     <style>
       .btn-light.text-dark:hover,
       .btn-light.text-dark:focus {
@@ -28,13 +29,14 @@
         border-color: #000 !important;
       }
     
-      /* When the button is clicked (active) */
+      /* 禁用 :active 状态的效果 */
       .btn-light.text-dark:active {
-        background-color: #f5f5fa !important;  /* The original background color */
-        color: #000 !important; /* The original text color */
-        border-color: #f5f5fa !important;  /* Match the original border */
+        background-color: #f5f5fa !important;  /* 保持原始背景色 */
+        color: #000 !important; /* 保持原始文字颜色 */
+        border-color: #f5f5fa !important;  /* 保持原始边框 */
       }
     </style>
+
 
     
     <div class="d-flex flex-row flex-wrap align-items-center gap-1 mt-2 links">
@@ -50,15 +52,6 @@
 
 
     
-    <!-- ABSTRACT 展开区（全宽 col-12） -->
-    </br>
-    <div id="abs{{ item.id }}" class="col-12 row mt-2 d-none">
-      <div class="col-12" style="padding-left:0;">
-        <div style="background:#f9f9fb;font-size:15px;padding:10px 16px;border-radius:4px;">
-          {{ item.abstract }}
-        </div>
-      </div>
-    </div>
     <!-- BIB 展开区（半宽 col-6），含复制按钮 -->
     <div id="bib{{ item.id }}" class="row mt-2 d-none">
       <div class="col-6" style="position:relative;">
@@ -73,6 +66,17 @@
       </div>
     </div>
   </div>
+
+    <!-- ABSTRACT 展开区（全宽 col-12） -->
+    </br>
+    <div id="abs{{ item.id }}" class="col-12 row mt-2 d-none">
+      <div class="col-12" style="padding-left:0;">
+        <div style="background:#f9f9fb;font-size:15px;padding:10px 16px;border-radius:4px;">
+          {{ item.abstract }}
+        </div>
+      </div>
+    </div>
+  
 </div>
 
 
