@@ -5,11 +5,9 @@ navbar_name: Publications
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
-<div class="col-12 col-lg-11">
-<blockquote>
+<blockquote  class="col-12 col-lg-11">
     All papers that have not been peer-reviewed will not appear here, including preprints. You can access my all of papers at <a href="https://scholar.google.com/citations?user=jo3KvrwAAAAJ">🔗Google Scholar</a>.
 </blockquote>
-</div>div
 
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
