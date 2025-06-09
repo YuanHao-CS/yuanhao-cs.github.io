@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Yuan-Hao Jiang's Home Page"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/ECNU.jpg" alt="East China Normal University" class="inline-badge"/></span> <span class="no-break"><img src="assets/images/badges/SJTU.jpg" alt="Shanghai Jiao Tong University" class="inline-badge"/></span> PhD student at East China Normal University (ECNU) & Joint doctoral student at Shanghai Jiao Tong University (SJTU)'
+  - '<span class="no-break"><img src="assets/images/badges/ECNU.jpg" alt="East China Normal University" class="inline-badge"/></span> PhD student at East China Normal University (ECNU)</br><span class="no-break"><img src="assets/images/badges/SJTU.jpg" alt="Shanghai Jiao Tong University" class="inline-badge"/></span> Joint doctoral student at Shanghai Jiao Tong University (SJTU)'
 
 email: "yuanhao.cs.edu@gmail.com"
 gscholar: jo3KvrwAAAAJ
