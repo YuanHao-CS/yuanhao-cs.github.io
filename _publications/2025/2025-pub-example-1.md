@@ -1,5 +1,5 @@
 ---
-title:          MAS-KCL: Knowledge Component Graph Structure Learning with Large Language Model-Based Agentic Workflow
+title:          "MAS-KCL: Knowledge Component Graph Structure Learning with Large Language Model-Based Agentic Workflow"
 date:           2025-05-01 00:01:00 +0800
 selected:       true
 pub:            "The Visual Computer"
