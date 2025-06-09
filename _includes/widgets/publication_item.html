@@ -20,15 +20,29 @@
       <div class="author mb-1"><em>{% include widgets/author_list.html authors=item.authors %}</em></div>
       <div class="periodical mb-1"><em>{{ item.pub_pre }}<b>{{ item.pub }}</b>{{ item.pub_post }}, {{ item.pub_date }}{{ item.pub_last }}</em></div>
     </div>
+    <style>
+      .btn-light.text-dark:hover,
+      .btn-light.text-dark:focus {
+        background-color: #000 !important;
+        color: #fff !important;
+        border-color: #000 !important;
+      }
+    </style>
+
+    
     <div class="d-flex flex-row flex-wrap align-items-center gap-1 mt-2 links">
-      <button class="award btn btn-sm z-depth-0 px-3 py-1 mx-1" type="button" style="background:#f5f5fa;"
+      <button class="award btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" type="button"
         onclick="toggleAbs('{{ item.id }}');">ABSTRACT</button>
-      <a href="{{ item.pdf_link }}" class="btn btn-sm z-depth-0 px-3 py-1 mx-1" target="_blank" style="background:#f5f5fa;">PDF</a>
-      <button class="bibtex btn btn-sm z-depth-0 px-3 py-1 mx-1" type="button"
+      <a href="{{ item.pdf_link }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" target="_blank">PDF</a>
+      <button class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" type="button"
         onclick="toggleBib('{{ item.id }}');">BIB</button>
-      <a href="{{ item.html_link }}" class="btn btn-sm z-depth-0 px-3 py-1 mx-1" target="_blank" style="background:#f5f5fa;">HTML</a>
-      <a href="{{ item.code_link }}" class="btn btn-sm z-depth-0 px-3 py-1 mx-1" target="_blank" style="background:#f5f5fa;">CODE</a>
+      <a href="{{ item.html_link }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1" target="_blank">HTML</a>
+      <a href="{{ item.code_link }}" class="btn-outline-dark btn btn-sm btn-light text-dark z-depth-0 px-3 py-1 mx-1">CODE/DATASET</a>
     </div>
+
+
+
+    
     <!-- ABSTRACT 展开区（全宽 col-12） -->
     <div id="abs{{ item.id }}" class="row mt-2 d-none">
       <div class="col-12" style="padding-left:0;">
