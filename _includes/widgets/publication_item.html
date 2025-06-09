@@ -49,7 +49,7 @@
                 {% endif %}
                 {% endfor %}
 
-                <p>item.bib</p>
+                <p>{{item.bib}}</p>
                 <!-- BIB按钮，点击展开内容 -->
                 <button class="btn btn-link p-0" type="button" data-toggle="collapse" data-target="#bib{{ item.id }}" aria-expanded="false" aria-controls="bib{{ item.id }}">BIB</button>
                 <div class="collapse" id="bib{{ item.id }}">
