@@ -4,7 +4,7 @@ title:          "Explainable Learning Outcomes Prediction: Information Fusion Ba
 date:           2025-04-25 00:01:00 +0800
 selected:       true
 abbr:           'CHI 2025'
-label:          ' <span class="badge badge-pill badge-custom badge-primary">CCF</span> '
+label:          ' <span class="badge badge-pill badge-custom badge-primary">CCF-A</span> <span class="badge badge-pill badge-custom badge-primary">core-A*</span> <span class="badge badge-pill badge-custom badge-primary">THCPL A</span> '
 pub_pre:        ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span> '
 pub:            "ACM CHI Conference on Human Factors in Computing Systems (CHI 2025)"
 pub_last:       ''
