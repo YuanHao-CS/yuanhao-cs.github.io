@@ -20,7 +20,7 @@ orcid: 0000-0002-7738-6808
 # xiaohongshu: 5fa266300xxxx
 
 short_bio: >-
-  Hello! I am a PhD candidate at the Shanghai Institute of Artificial Intelligence for Education, East China Normal University, majoring in AI for Education. Here, I lead the Outstanding Doctoral Research Program for Advancing Academic Innovation and am expected to graduate in July 2027. At the same time, I am also a joint doctoral student at Shanghai Jiao Tong University. My research interests include AI for education, agentic workflow, human-computer interaction, and multimodal large language models. </br></br>Currently, I have served or will serve as a program committee member for tracks or workshops at the Global Chinese Conference on Computers in Education (GCCCE 2024), International Conference on Artificial Intelligence in Education (AIED 2024), AIED 2025, and International Conference on Computers in Education (ICCE 2025). I am a member of the Association for Computing Machinery (ACM), the Association for the Advancement of Computing in Education (AACE), and the Special Interest Group on Computer-Human Interaction (SIGCHI). I also serve as a reviewer for ESWA, EAAI, ICLR, AIED, and other top-tier SCI journals or leading international conferences.
+  <p style="text-align: justify;">Hello! I am a PhD candidate at the Shanghai Institute of Artificial Intelligence for Education, East China Normal University, majoring in AI for Education. Here, I lead the Outstanding Doctoral Research Program for Advancing Academic Innovation and am expected to graduate in July 2027. At the same time, I am also a joint doctoral student at Shanghai Jiao Tong University. My research interests include AI for education, agentic workflow, human-computer interaction, and multimodal large language models. </br></br>Currently, I have served or will serve as a program committee member for tracks or workshops at the Global Chinese Conference on Computers in Education (GCCCE 2024), International Conference on Artificial Intelligence in Education (AIED 2024), AIED 2025, and International Conference on Computers in Education (ICCE 2025). I am a member of the Association for Computing Machinery (ACM), the Association for the Advancement of Computing in Education (AACE), and the Special Interest Group on Computer-Human Interaction (SIGCHI). I also serve as a reviewer for ESWA, EAAI, ICLR, AIED, and other Top SCI journals or leading international conferences.</p>
 
 show_portrait: true
 portrait_url: assets/images/photos/portrait.jpg
@@ -35,7 +35,7 @@ education:
 - name: East China Normal University
   logo: assets/images/badges/ECNU.jpg
   position: PhD student in <b>AI for Education</b>
-  date: 2023-2027
+  date: 2023 - 2027
   
 #experience:
 #- name: CUHK (SZ)
@@ -65,8 +65,10 @@ awards:
   date: 2021
 
 service:
-- name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
-- name: Reviewer of <a href="https://2025.ieeeicme.org/">ICME 2025</a>
+- name: Track Program Committee member of <a href="https://aied2025.itd.cnr.it/">AIED 2025</a>
+- name: Workshop Program Committee member of <a href="https://icce2025.study.iitm.ac.in/">ICCE 2025</a>
+- name: Track Program Committee member of <a href="https://aied2024.cesar.school/">AIED 2024</a>
+- name: WorkshopProgram Committee member of <a href="https://gccce2024.swu.edu.cn/index_en.htm">GCCCE 2024</a>
 
 footer_text: >-
   Copyright © 2025 <a href="https://scholar.google.com/citations?user=jo3KvrwAAAAJ" target="_blank">Yuan-Hao Jiang</a>. All Rights Reserved.
