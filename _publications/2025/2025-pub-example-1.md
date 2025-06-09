@@ -19,4 +19,6 @@ authors:
   - Jiayi Wu
 links:
   Paper: https://doi.org/10.1007/s00371-025-03946-1
+bib:
+  "@article{2025_jiang_mas-kcl,</br> title = {{MAS}-{KCL}: knowledge component graph structure learning with large language model-based agentic workflow},</br> issn = {1432-2315},</br> shorttitle = {{MAS}-{KCL}},</br> url = {https://doi.org/10.1007/s00371-025-03946-1},</br> doi = {10.1007/s00371-025-03946-1},</br> language = {en},</br> journal = {The Visual Computer},</br> author = {Jiang, Yuan-Hao and Tang, Kezong and Chen, Zi-Wei and Wei, Yuang and Liu, Tian-Yi and Wu, Jiayi},</br> month = may,</br> year = {2025},</br> }"
 ---
