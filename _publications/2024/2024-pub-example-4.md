@@ -2,7 +2,7 @@
 id:             "2024-4_wei_enhancing"
 title:          "Enhancing Explainability of Knowledge Learning Paths: Causal Knowledge Networks"
 date:           2024-07-01
-selected:       ture
+selected:       true
 abbr:           'EDM 2024'
 label:          ''
 pub_pre:        '<span class="badge badge-pill badge-custom badge-secondary">Conference</span> '
