@@ -2,7 +2,7 @@
 id:             "2024-8_wei_enhancing"
 title:          "Enhancing Educational Practices: Strategies for Assessing and Improving Learning Outcomes"
 date:           2024-10-01
-selected:       ture
+selected:       true
 abbr:           'Nova Science Publishers'
 label:          '<span class="badge badge-pill badge-custom badge-primary">Editor</span>'
 pub_pre:        '<span class="badge badge-pill badge-custom badge-secondary">Monograph</span>'
