@@ -2,7 +2,7 @@
 id:             "2024-2_li_generating"
 title:          "Generating Contextualized Mathematics Multiple-Choice Questions Utilizing Large Language Models"
 date:           2024-07-01
-selected:       ture
+selected:       true
 abbr:           'AIED 2024'
 label:          '<span class="badge badge-pill badge-custom badge-primary">CAAI-A</span> <span class="badge badge-pill badge-custom badge-primary">ECNU-Recommended Education Conferences</span> '
 pub_pre:        '<span class="badge badge-pill badge-custom badge-secondary">Conference</span> '
