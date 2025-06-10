@@ -2,7 +2,7 @@
 id:             "2024-5_jiang_synchronizing"
 title:          "Synchronizing Verbal Responses and Board Writing for Multimodal Math Instruction with LLMs"
 date:           2024-12-01 00:01:00 +0800
-selected:       ture
+selected:       true
 abbr:           'NeurIPS 2024'
 label:          '<span class="badge badge-pill badge-custom badge-primary">CCF-A</span> '
 pub_pre:        '<span class="badge badge-pill badge-custom badge-secondary">Conference </span> '
