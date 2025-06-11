@@ -1,7 +1,7 @@
 ---
 id:             "2024-1_wu_multi-agent"
 title:          "Multi-Agent Systems Supported by Large Language Models: Technical Pathways, Educational Applications, and Future Prospects"
-date:           2023-09-30 00:01:00 +0800
+date:           2024-09-30 00:01:00 +0800
 selected:       false
 abbr:           'OER 2024'
 label:          ' <span class="badge badge-pill badge-custom badge-primary">Chinese</span> <span class="badge badge-pill badge-custom badge-primary">CSSCI</span>'
