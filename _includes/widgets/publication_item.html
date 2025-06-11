@@ -13,10 +13,17 @@
     </style>
   </div>
   <!-- 右侧信息 -->
+  <style>
+  .label-badge span {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: inline-block; /* 确保margin生效 */
+  }
+  </style>
   <div class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column justify-content-between">
     <div>
       <div class="title" style="font-size:1.18rem;font-weight:500;">{{ item.title }}</div>
-      <div class="periodical mb-1"><em>{{ item.label }}</em></div>
+      <div class="periodical mb-1 label-badge"><em>{{ item.label }}</em></div>
       <div class="author mb-1"><em>{% include widgets/author_list.html authors=item.authors %}</em></div>
       <div class="periodical mb-1"><em>{{ item.pub_pre }}<b>{{ item.pub }}</b>{{ item.pub_post }}, {{ item.pub_date }}{{ item.pub_last }}</em></div>
     </div>
