@@ -15,11 +15,11 @@ abstract: >-
 
 cover:          assets/images/covers/2022-1_yin_improving.jpg
 authors:
+  - Yu-Hang Yin
+  - Long-Chen Shen
   - Yuan-Hao Jiang
   - Shang Gao
-  - Yu-Hang Yin
-  - Zi-Fan Xu
-  - Shao-Yong Wang
+  - Dong-Jun Yu
 PDF:          assets/PDF/2022-1_yin_improving.pdf
 HTML:         https://doi.org/10.1016/j.ab.2022.114878
 CODE_OR_DATASET:   https://github.com/csbio-njust-edu/msdensenet
