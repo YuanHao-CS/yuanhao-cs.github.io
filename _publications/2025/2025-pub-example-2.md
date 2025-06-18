@@ -19,7 +19,7 @@ authors:
   - Zi-Wei Chen
   - Cong Zhao
   - Kezong Tang
-  - Jicoong Duan
+  - Jicong Duan
   - Yizhou Zhou
 PDF:          assets/PDF/2025-2_jiang_explainable.pdf
 HTML:         https://doi.org/10.1145/3706599.3721212
