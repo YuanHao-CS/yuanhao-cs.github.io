@@ -2,7 +2,7 @@
 id:             "2023-1_jiang_control"
 title:          "A Control System of Rail-Guided Vehicle Assisted by Transdifferentiation Strategy of Lower Organisms"
 date:           2023-05-11 00:01:00 +0800
-selected:       true
+selected:       false
 abbr:           'EAAI 2023'
 label:          ' <span class="badge badge-pill badge-custom badge-primary">TOP</span> <span class="badge badge-pill badge-custom badge-primary">SCI Q1</span> <span class="badge badge-pill badge-custom badge-primary">IF = 7.5</span> <span class="badge badge-pill badge-custom badge-primary">CCF-C</span> <span class="badge badge-pill badge-custom badge-primary">EI-Indexed Journal</span> '
 pub_pre:        ' <span class="badge badge-pill badge-custom badge-secondary">Journal</span> '
