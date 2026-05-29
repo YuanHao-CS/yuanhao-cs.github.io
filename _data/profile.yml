@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Yuan-Hao Jiang's Home Page"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/ECNU.jpg" alt="East China Normal University" class="inline-badge"/></span> PhD student at East China Normal University (ECNU)</br><span class="no-break"><img src="assets/images/badges/SJTU.jpg" alt="Shanghai Jiao Tong University" class="inline-badge"/></span> Joint doctoral student at Shanghai Jiao Tong University (SJTU)'
+  - '<span class="no-break"><img src="assets/images/badges/ECNU.jpg" alt="East China Normal University" class="inline-badge"/></span> PhD Student at East China Normal University (ECNU)</br><span class="no-break"><img src="assets/images/badges/SJTU.jpg" alt="Shanghai Jiao Tong University" class="inline-badge"/></span> Joint Doctoral Student at Shanghai Jiao Tong University (SJTU)</br><span class="no-break"><img src="assets/images/badges/NTU.png" alt="Nanyang Technological University" class="inline-badge"/></span> Currently Visiting Scholar at Nanyang Technological University (NTU)'
 
 email: "yuanhao.cs.edu@gmail.com"
 gscholar: jo3KvrwAAAAJ
@@ -21,7 +21,7 @@ orcid: 0000-0002-7738-6808
 ResearchGate: Yuan-Hao-Jiang
 
 short_bio: >-
-  <p style="text-align: justify;">Hello! I am a PhD candidate at the Shanghai Institute of Artificial Intelligence for Education, East China Normal University, majoring in AI for Education. Here, I lead a Fundamental Research Funds for the Central Universities and am expected to graduate in July 2027. At the same time, I am also a joint doctoral student at Shanghai Jiao Tong University. My research interests include AI for education, agentic workflow, human-computer interaction, and multimodal large language models. </br></br>Currently, I am a member of the Association for Computing Machinery (ACM), the Association for the Advancement of Computing in Education (AACE), and the ACM Special Interest Group on Computer-Human Interaction (SIGCHI). I also serve as a reviewer for ESWA, EAAI, ICLR, AIED, and other Top SCI journals or leading international conferences.</p>
+  <p style="text-align: justify;">Hello! I am a PhD candidate at the Shanghai Institute of Artificial Intelligence for Education, East China Normal University, majoring in AI for Education. Here, I lead a Fundamental Research Funds for the Central Universities and am expected to graduate in July 2027. At the same time, I am also a joint doctoral student at Shanghai Jiao Tong University and a visiting scholar at Nanyang Technological University from 2026 to 2027. My research interests include AI for education, agentic workflow, human-computer interaction, and multimodal large language models. </br></br>Currently, I am a member of the Association for Computing Machinery (ACM), the Association for the Advancement of Computing in Education (AACE), and the ACM Special Interest Group on Computer-Human Interaction (SIGCHI). I also serve as a reviewer for ESWA, EAAI, ICLR, AIED, and other Top SCI journals or leading international conferences.</p>
 
 show_portrait: true
 portrait_url: assets/images/photos/portrait-2026.png
@@ -43,11 +43,11 @@ education:
   date: 2020 - 2023
 
   
-#experience:
-#- name: CUHK (SZ)
-#  logo: assets/images/badges/cuhk-sz.png
-#  position: Research Assistant (Supervisor is <a href="https://wabyking.github.io/old.html">Benyou Wang</a>)
-#  date: Sep. 2024 - Now
+experience:
+- name: Nanyang Technological University
+  logo: assets/images/badges/NTU.png
+  position: Visiting Scholar
+  date: 2026 - 2027
 
 service:
 - name: Track Program Committee member of <a href="https://aied2025.itd.cnr.it/">International Conference on Artificial Intelligence in Education (AIED 2025)</a>
