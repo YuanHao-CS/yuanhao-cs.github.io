@@ -3,7 +3,7 @@ id:             "2022-1_yin_improving"
 title:          "Improving the prediction of DNA-protein binding by integrating multi-scale dense convolutional network with fault-tolerant coding"
 date:           2022-08-29 00:01:00 +0800
 selected:       false
-abbr:           'ABio 2023'
+abbr:           'Abio 2022'
 label:          ' <span class="badge badge-pill badge-custom badge-primary">SCI Q2</span> <span class="badge badge-pill badge-custom badge-primary">EI-Indexed Journal</span> '
 pub_pre:        ' <span class="badge badge-pill badge-custom badge-secondary">Journal</span> '
 pub:            "Analytical Biochemistry"
