@@ -2,7 +2,9 @@
 
 ## Current Release
 
-- Version `v20260905` is approved for release.
+- The latest tagged release is `v20260905`.
+- Homepage citations are 500 as of September 9, 2026.
+- The homepage shows the latest 15 news items by default and reveals older items inline when requested.
 
 ## Publication Follow-Up
 

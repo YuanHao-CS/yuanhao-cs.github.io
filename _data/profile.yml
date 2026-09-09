@@ -57,11 +57,15 @@ service:
 - name: Workshop Program Committee member of <a href="https://gccce2024.swu.edu.cn/index_en.htm">Global Chinese Conference on Computers in Education (GCCCE 2024)</a>
 
 awards:
+- name: 🌏China Scholarship Council (CSC) National High-Level University Postgraduate Program Awardee (sole 2026 recipient from my institute)
+  date: 2026
+- name: 🎓Outstanding Academic Scholarship for Graduate Students (Doctoral), East China Normal University
+  date: 2025
 - name: 🏅Author of a 2025 Highly Cited Paper recognized by China National Knowledge Infrastructure (CNKI)
   date: 2025
 - name: 🎓Outstanding Trainee, Shanghai Municipal Artificial Intelligence Special Program Short-Term Training Course 2025, Shanghai Innovation Institute
   date: 2025
-- name: 🏅ECNU Academic Innovation Promotion Program for Excellent Doctoral Students
+- name: 🏅ECNU Academic Innovation Promotion Program for Excellent Doctoral Students (sole selected project from my institute)
   date: 2025
 - name: 🥈National Silver Award, China International College Students' Innovation Competition
   date: 2025
@@ -99,4 +103,4 @@ awards:
 footer_text: >-
   Copyright © 2026 <a href="https://scholar.google.com/citations?user=jo3KvrwAAAAJ" target="_blank">Yuan-Hao Jiang</a>. All Rights Reserved.
 
-last_updated: "Sep 5, 2026"
+last_updated: "Sep 9, 2026"
