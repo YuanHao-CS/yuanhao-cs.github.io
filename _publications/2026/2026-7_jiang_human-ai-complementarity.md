@@ -7,7 +7,7 @@ abbr:           'IJHCI 2026'
 label:          ' <span class="badge badge-pill badge-custom badge-primary">SSCI Q1</span> <span class="badge badge-pill badge-custom badge-primary">SCI Q1</span> <span class="badge badge-pill badge-custom badge-primary">IF = 6.1</span> <span class="badge badge-pill badge-custom badge-primary">CCF-B</span> '
 pub_pre:        ' <span class="badge badge-pill badge-custom badge-secondary">Journal</span> '
 pub:            "International Journal of Human–Computer Interaction"
-pub_last:       ", 1-19"
+pub_last:       ''
 pub_date:       "2026"
 
 abstract: >-
