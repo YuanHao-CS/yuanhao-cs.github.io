@@ -57,47 +57,68 @@ service:
 - name: Workshop Program Committee member of <a href="https://gccce2024.swu.edu.cn/index_en.htm">Global Chinese Conference on Computers in Education (GCCCE 2024)</a>
 
 awards:
-- name: 🌏China Scholarship Council (CSC) National High-Level University Postgraduate Program Awardee (sole 2026 recipient from my institute)
+- icon: 🌏
+  name: China Scholarship Council (CSC) National High-Level University Postgraduate Program Awardee (sole 2026 recipient from my institute)
   date: 2026
-- name: 🎓Outstanding Academic Scholarship for Graduate Students (Doctoral), East China Normal University
+- icon: 🎓
+  name: Outstanding Academic Scholarship for Graduate Students (Doctoral), East China Normal University
   date: 2025
-- name: 🏅Author of a 2025 Highly Cited Paper recognized by China National Knowledge Infrastructure (CNKI)
+- icon: 🏅
+  name: Author of a 2025 Highly Cited Paper recognized by China National Knowledge Infrastructure (CNKI)
   date: 2025
-- name: 🎓Outstanding Trainee, Shanghai Municipal Artificial Intelligence Special Program Short-Term Training Course 2025, Shanghai Innovation Institute
+- icon: 🎓
+  name: Outstanding Trainee, Shanghai Municipal Artificial Intelligence Special Program Short-Term Training Course 2025, Shanghai Innovation Institute
   date: 2025
-- name: 🏅ECNU Academic Innovation Promotion Program for Excellent Doctoral Students (sole selected project from my institute)
+- icon: 🏅
+  name: ECNU Academic Innovation Promotion Program for Excellent Doctoral Students (sole selected project from my institute)
   date: 2025
-- name: 🥈National Silver Award, China International College Students' Innovation Competition
+- icon: 🥈
+  name: National Silver Award, China International College Students' Innovation Competition
   date: 2025
-- name: 🥉National Bronze Award, "Chuang Qingchun" China Youth Innovation and Entrepreneurship Competition (Technological Innovation)
+- icon: 🥉
+  name: National Bronze Award, "Chuang Qingchun" China Youth Innovation and Entrepreneurship Competition (Technological Innovation)
   date: 2024
-- name: 🥈National Silver Award, China Graduate Electronics Design Contest
+- icon: 🥈
+  name: National Silver Award, China Graduate Electronics Design Contest
   date: 2023
-- name: 🎫Excellence Award, "Chuangqingchun" China Youth Innovation and Entrepreneurship Competition (Technological Innovation)
+- icon: 🎫
+  name: Excellence Award, "Chuangqingchun" China Youth Innovation and Entrepreneurship Competition (Technological Innovation)
   date: 2023
-- name: 🥉National Bronze Award, "Chuangqingchun" China Youth Innovation and Entrepreneurship Competition (Digital Economy)
+- icon: 🥉
+  name: National Bronze Award, "Chuangqingchun" China Youth Innovation and Entrepreneurship Competition (Digital Economy)
   date: 2023
-- name: 🎓Outstanding Graduate
+- icon: 🎓
+  name: Outstanding Graduate
   date: 2023
-- name: 🏅"Huawei Cup" China Graduate AI Innovation Competition
+- icon: 🏅
+  name: '"Huawei Cup" China Graduate AI Innovation Competition'
   date: 2023
-- name: 🏆National Scholarship
+- icon: 🏆
+  name: National Scholarship
   date: 2022
-- name: 🎫Outstanding Graduate Student Model
+- icon: 🎫
+  name: Outstanding Graduate Student Model
   date: 2022
-- name: 🥈National Silver Award, China Graduate Electronics Design Contest
+- icon: 🥈
+  name: National Silver Award, China Graduate Electronics Design Contest
   date: 2022
-- name: 🥇First Prize, National Marine Vehicle Design and Production Competition
+- icon: 🥇
+  name: First Prize, National Marine Vehicle Design and Production Competition
   date: 2022
-- name: 🥉Third Prize, "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Competition
+- icon: 🥉
+  name: Third Prize, "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Competition
   date: 2022
-- name: 🎫Outstanding Graduate Student Model
+- icon: 🎫
+  name: Outstanding Graduate Student Model
   date: 2021
-- name: 🥇First Prize, Asia and Pacific Mathematical Contest in Modeling
+- icon: 🥇
+  name: First Prize, Asia and Pacific Mathematical Contest in Modeling
   date: 2020
-- name: 🏆National Scholarship
+- icon: 🏆
+  name: National Scholarship
   date: 2019
-- name: 🎫National Endeavor Scholarship
+- icon: 🎫
+  name: National Endeavor Scholarship
   date: 2018
 
 footer_text: >-

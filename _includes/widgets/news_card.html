@@ -7,21 +7,22 @@
 
 <div class="news-card my-3 bg-white shadow-sm rounded-sm">
     <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
-    <div class="px-3 pb-1" id="news-list">
+    <div class="px-3 pb-2" id="news-list">
         {% for year in news_by_year %}
-        <div class="media py-1 {% if not_first -%}border-top border-gray {% endif -%}{% if news_index >= news_limit -%}news-extra d-none{%- endif %}">
+        <section class="news-year py-2 {% if not_first -%}border-top border-gray {% endif -%}{% if news_index >= news_limit -%}news-extra d-none{%- endif %}">
             {% assign not_first = true %}
-            <div class="mr-3 text-muted my-1">{{ year.name }}</div>
-            <div class="media-body">
-                {% for item in year.items %}
-                <div class="my-1 d-flex {% if news_index >= news_limit -%}news-extra d-none{%- endif %}">
-                    <div>{{ item.title }}</div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
+            <div class="news-year-label text-muted">{{ year.name }}</div>
+            {% for item in year.items %}
+                <div class="news-item {% if news_index >= news_limit -%}news-extra d-none{%- endif %}">
+                    <span class="news-item-icon" aria-hidden="true">{{ item.icon }}</span>
+                    <div class="news-item-content">
+                        <div class="news-item-title">{{ item.title }}</div>
+                        <div class="news-item-date text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
+                    </div>
                 </div>
                 {% assign news_index = news_index | plus: 1 %}
-                {% endfor %}
-            </div>
-        </div>
+            {% endfor %}
+        </section>
         {% endfor %}
     </div>
     {% if hidden_news_count > 0 %}
@@ -33,6 +34,55 @@
     </div>
     {% endif %}
 </div>
+
+<style>
+.news-year-label {
+    margin-bottom: 0.15rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.news-item {
+    display: grid;
+    grid-template-columns: 1.75rem minmax(0, 1fr);
+    column-gap: 0.45rem;
+    align-items: start;
+    padding: 0.25rem 0;
+}
+
+.news-item-icon {
+    font-size: 1.05rem;
+    line-height: 1.45;
+    text-align: center;
+}
+
+.news-item-content {
+    display: flex;
+    gap: 1rem;
+    min-width: 0;
+}
+
+.news-item-title {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.news-item-date {
+    flex: 0 0 auto;
+    align-self: flex-end;
+}
+
+@media (max-width: 575.98px) {
+    .news-item-content {
+        display: block;
+    }
+
+    .news-item-date {
+        margin-top: 0.1rem;
+    }
+}
+</style>
 
 <script>
 function toggleOlderNews(button) {

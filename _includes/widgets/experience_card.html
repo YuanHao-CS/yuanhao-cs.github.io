@@ -63,10 +63,14 @@
                     {% if site.data.profile.awards %}
                     <div class="col-md-6">
                         <div class="mx-2 my-1">
-                            <h6>Honors & Awards</h6>
-                            <ul class="list small pl-3 mb-1">
+                            <h6>Selected Honors & Awards</h6>
+                            <ul class="awards-list small mb-1">
                                 {% for item in site.data.profile.awards %}
-                                <li>{{ item.name }} <em class="float-right">{{ item.date }}</em></li>
+                                <li class="award-item">
+                                    <span class="award-icon" aria-hidden="true">{{ item.icon }}</span>
+                                    <span class="award-name">{{ item.name }}</span>
+                                    <em class="award-date text-muted">{{ item.date }}</em>
+                                </li>
                                 {% endfor %}
                             </ul>
                         </div>
@@ -79,3 +83,39 @@
         </div>
     </div>
 </div>
+
+<style>
+.awards-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.award-item {
+    display: grid;
+    grid-template-columns: 1.5rem minmax(0, 1fr) auto;
+    column-gap: 0.35rem;
+    align-items: start;
+    margin-bottom: 0.2rem;
+}
+
+.award-icon {
+    line-height: 1.45;
+    text-align: center;
+}
+
+.award-date {
+    padding-left: 0.5rem;
+    white-space: nowrap;
+}
+
+@media (max-width: 575.98px) {
+    .award-item {
+        grid-template-columns: 1.5rem minmax(0, 1fr);
+    }
+
+    .award-date {
+        grid-column: 2;
+        padding-left: 0;
+    }
+}
+</style>
